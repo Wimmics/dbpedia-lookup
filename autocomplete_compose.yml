@@ -1,7 +1,6 @@
 version: "3.0"
 services:
   dbpedia-lookup-autocompose:
-    env_file: .env_autocomplete
     build: .
     restart: always
     ports:
